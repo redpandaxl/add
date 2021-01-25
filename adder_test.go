@@ -10,7 +10,3 @@ func TestAdder(t *testing.T) {
 		t.Errorf("expected '%d' but got '%d'", expected, sum)
 	}
 }
-
-func Add(x, y int) int {
-	return 0
-}
